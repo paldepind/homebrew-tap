@@ -11,6 +11,6 @@ class Projectdo < Formula
   end
 
   test do
-    system "#{bin}/projectdo -v"
+    system "#{bin}/projectdo" "-v"
   end
 end
